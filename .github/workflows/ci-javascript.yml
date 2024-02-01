@@ -5,7 +5,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  build:
+  build: 
     name: Build
     uses: ./.github/workflows/bazel.yml
     with:
